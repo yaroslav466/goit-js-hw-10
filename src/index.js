@@ -69,7 +69,7 @@ breedSelect.addEventListener("change", () => {
         Notify.failure(`Oops!...Something went wrong!!!   
                      Try reloading the page!!!`);
         breedSelect.classList.toggle("hidden");
-
+    catInfoDiv.classList.toggle("hidden");
         console.error(error);
         throw error;
       })
